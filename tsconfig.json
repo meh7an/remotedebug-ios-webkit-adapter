@@ -2,14 +2,9 @@
   "compilerOptions": {
     "module": "commonjs",
     "resolveJsonModule": true,
-    "target": "ES2016",
-    "types": [
-        "node"
-    ],
+    "target": "es2020",
+    "types": ["node"],
     "sourceMap": true
   },
-  "exclude": [
-    "src/**/*.json",
-    "node_modules"
-  ]
+  "exclude": ["src/**/*.json", "node_modules"]
 }
